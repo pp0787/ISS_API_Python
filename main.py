@@ -6,8 +6,8 @@ import smtplib
 
 MY_LAT = -30.507351 # Your latitude
 MY_LONG = -130.127758 # Your longitude
-my_email="priyankubain@gmail.com"
-my_password="xyoumjbdidoblkzg"
+my_email="priyank****@gmail.com"
+my_password="***********"
 
 response = requests.get(url="http://api.open-notify.org/iss-now.json")
 response.raise_for_status()
